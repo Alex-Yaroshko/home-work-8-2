@@ -1,0 +1,92 @@
+main {
+    font-family: "Inter", sans-serif;
+    background: rgb(229, 241, 255);
+    background: linear-gradient(
+      53deg,
+      rgba(229, 241, 255, 1) 0%,
+      rgba(240, 255, 229, 1) 100%
+    )
+}
+.logo_main {
+    margin: 0 auto;
+    padding-top: 185px;
+    text-align: center;
+}
+  
+
+.container {
+    max-width: 722px;
+    max-height: 242px;
+    margin: 0 auto 231px;
+    border: 1px solid #E4E4E4;
+    border-radius: 30px;
+}
+
+.logo-subtitle {
+    margin: 0;
+    padding: 27px 0px 10px 33px;
+    text-align: left;
+}
+.container :nth-child(2) {
+    margin: 0;
+    padding: 0px 0px 10px 33px;
+    text-align: left;
+}
+
+label {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 32px 40px 33px;
+}
+
+input {
+    position: relative;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.35);
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 25px 17px;
+    border: 1px solid #e4e4e4;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    outline-color: #1E6141;
+}
+.submit-btn {
+    position: absolute;
+    background: none;
+    border: none;
+    left: 69%;
+    top: 72.3%;
+}
+.submit-btn:hover {
+    cursor: pointer;
+}
+.footer-container {
+    display: flex;
+    align-content: center;
+    justify-content: end;
+    gap: 50px;
+    padding: 0 50px 50px 5px;
+}
+.footer-container button {
+    background: rgba(53, 143, 100, 0.1);
+    border: 1px solid rgba(53, 143, 100, 0.42);
+    border-radius: 30px;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 27px;
+    color: #358f64;
+    padding: 13px 25px;
+}
+.footer__twitter {
+    padding-left: 10px;
+}
+.footer__logo {
+    max-width: 100%;
+}
+
+.link {
+    color: #358f64;
+    text-decoration: none;
+}

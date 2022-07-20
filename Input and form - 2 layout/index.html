@@ -1,0 +1,260 @@
+<<<<<<< HEAD
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input and form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+<div>
+    <div class="box">
+        <div class="box__title">
+        <span>FORM</span>
+    </div>
+    <form id="form" class="form">
+        <label class="l1">
+            <img src="User-logo.png">
+            <input type="text" 
+            placeholder="UserName"
+            pattern="[/^[a-z\d]+$/i]{5,16}" 
+            title="Username should only contain lower and Uppercase letters." 
+            minlength="8" maxlength="16">
+        </label>
+        <label class="l1-1">
+            <img src="Mail-logo.png">
+            <input type="email" 
+            autocomplete="email" 
+            autocomplete="on"
+            placeholder="E-mail" 
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" 
+            title="E-mail should contain numbers only from 0 to 9 letters from a to f and contain @ character " 
+            minlength="8" maxlength="20">
+        </label>
+        <label class="l1">
+            <img src="./Key-logo.png">
+            <input type="password" 
+            minlength="8" maxlength="12" 
+            placeholder="Password"
+            pattern="/^[a-zA-Z0-9!@#\$%\^\&*_=+-]{8,12}$/g"
+            title="At least 1 Uppercase
+            At least 1 Lowercase
+            At least 1 Number
+            At least 1 Symbol, symbol allowed:!@#$%^&*_=+-
+            Min 8 chars and Max 12 chars" 
+            autocomplete="on">
+        </label>
+        <div class="l2">
+            <img src="./Country-logo.png">
+        </div>
+        <select class="l1">
+            <option name="country" value="Country" disabled>Country</option>
+            <option name="country" value="Poland">Poland</option>
+            <option name="country" value="Ukraine">Ukraine</option>
+            <option name="country" value="Russia">Russia</option>
+            <option name="country" value="Germany">Germany</option>
+        </select>
+        <div class="level-title">
+            <span>Level of development</span>
+        </div>
+    </form>
+                <!-- RADIO -->
+                <div class="radio-all">
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="checkbox">
+                            <span></span> 
+                        </label>
+                            <p>Java</p> 
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="checkbox">
+                            <span></span> 
+                        </label>
+                            <p>Python</p> 
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="checkbox">
+                            <span></span> 
+                        </label>
+                            <p>JavaScript</p> 
+                    </div>
+                </div>
+
+    <div class="programming-title">
+        <span>Programming skills</span>
+    </div>
+
+
+            <!-- CHECKBOX -->
+ <div class="checkbox-all">
+        <div class="checkbox">
+             <label>
+                    <input type="checkbox" name="checkbox">
+                    <span></span> 
+                </label>
+                    <p>Java</p> 
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" name="checkbox">
+                    <span></span> 
+                </label>
+                    <p>Python</p> 
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" name="checkbox">
+                    <span></span> 
+                </label>
+                    <p>JavaScript</p> 
+            </div>
+        </div>
+
+    <button type="submit" form="form" value="send" class="send_btn">SEND</button>
+</div>
+</div> 
+</body>
+=======
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input and form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@200;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="fonts.css">
+    <link rel="stylesheet" href="reset.css">
+</head>
+<body>
+<div>
+    <div class="box">
+        <div class="box__title">
+        <span>FORM</span>
+    </div>
+    <form id="form" class="form">
+        <label class="l1">
+            <img src="User-logo.png">
+            <input type="text" 
+            placeholder="UserName"
+            pattern="[/^[a-z\d]+$/i]{5,16}" 
+            title="Username should only contain lower and Uppercase letters." 
+            minlength="8" maxlength="16">
+        </label>
+        <label class="l1-1">
+            <img src="Mail-logo.png">
+            <input type="email" 
+            autocomplete="email" 
+            autocomplete="on"
+            placeholder="E-mail" 
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" 
+            title="E-mail should contain numbers only from 0 to 9 letters from a to f and contain @ character " 
+            minlength="8" maxlength="20">
+        </label>
+        <label class="l1">
+            <img src="./Key-logo.png">
+            <input type="password" 
+            minlength="8" maxlength="12" 
+            placeholder="Password"
+            pattern="/^[a-zA-Z0-9!@#\$%\^\&*_=+-]{8,12}$/g"
+            title="At least 1 Uppercase
+            At least 1 Lowercase
+            At least 1 Number
+            At least 1 Symbol, symbol allowed:!@#$%^&*_=+-
+            Min 8 chars and Max 12 chars" 
+            autocomplete="on">
+        </label>
+        <div class="l2">
+            <img src="./Country-logo.png">
+        </div>
+        <select class="l1">
+            <option name="country" value="Country" disabled>Country</option>
+            <option name="country" value="Poland">Poland</option>
+            <option name="country" value="Ukraine">Ukraine</option>
+            <option name="country" value="Russia">Russia</option>
+            <option name="country" value="Germany">Germany</option>
+        </select>
+        <div class="level-title">
+            <span>Level of development</span>
+        </div>
+    </form>
+                <!-- RADIO -->
+                <div class="radio-all">
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="checkbox">
+                            <span></span> 
+                        </label>
+                            <p>Java</p> 
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="checkbox">
+                            <span></span> 
+                        </label>
+                            <p>Python</p> 
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" name="checkbox">
+                            <span></span> 
+                        </label>
+                            <p>JavaScript</p> 
+                    </div>
+                </div>
+
+    <div class="programming-title">
+        <span>Programming skills</span>
+    </div>
+
+
+            <!-- CHECKBOX -->
+ <div class="checkbox-all">
+        <div class="checkbox">
+             <label>
+                    <input type="checkbox" name="checkbox">
+                    <span></span> 
+                </label>
+                    <p>Java</p> 
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" name="checkbox">
+                    <span></span> 
+                </label>
+                    <p>Python</p> 
+            </div>
+            <div class="checkbox">
+                <label>
+                    <input type="checkbox" name="checkbox">
+                    <span></span> 
+                </label>
+                    <p>JavaScript</p> 
+            </div>
+        </div>
+
+    <button type="submit" form="form" value="send" class="send_btn">SEND</button>
+</div>
+</div> 
+</body>
+>>>>>>> af91b713a65f789937f12ef608efd5ae1895ecb1
+</html>

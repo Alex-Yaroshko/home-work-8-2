@@ -1,0 +1,6 @@
+body {
+    font-family: Inter;
+    background-color: #1e1e1e;
+    display: flex;
+    gap:100px;
+}

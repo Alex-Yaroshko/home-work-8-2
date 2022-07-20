@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./fonts/fonts.css">
+    <link rel="stylesheet" href="./styles/reset.css">
+
+</head>
+<body>
+    <!-- LEFT SECTION -->
+    <section class="start">
+        <div class="start__background">
+            <img src="./assets/images/simon-moog-t-DlFD2QZcw-unsplash 1.png" alt="картинка собаки">
+        </div>
+        <div class="start__title">
+            <h2>We will help you find your new best friend</h2>
+            <p>Save a life, adopt a pet</p>
+        </div>
+        
+        <div class="start-button">
+            <button type="button">Start now</button>
+        </div>
+    </section>
+
+
+
+
+    <!-- RIGHT SECTION -->
+    <section class="form">
+        <div class="form__title">
+            <h2>Create account</h2>
+        </div>
+        <form class="input-form">
+            <input type="text" 
+            placeholder="UserName"
+            pattern="[/^[a-z\d]+$/i]{5,16}" 
+            title="Username should only contain lower and Uppercase letters." 
+            minlength="8" maxlength="16">
+            <input type="email" 
+            autocomplete="email" 
+            autocomplete="on"
+            placeholder="E-mail" 
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" 
+            title="E-mail should contain numbers only from 0 to 9 letters from a to f and contain @ character " 
+            minlength="8" maxlength="20">
+            <input type="password" 
+            minlength="8" maxlength="12" 
+            placeholder="Password"
+            pattern="/^[a-zA-Z0-9!@#\$%\^\&*_=+-]{8,12}$/g"
+            title="At least 1 Uppercase
+            At least 1 Lowercase
+            At least 1 Number
+            At least 1 Symbol, symbol allowed:!@#$%^&*_=+-
+            Min 8 chars and Max 12 chars" 
+            autocomplete="on">
+        </form>
+
+        <!-- CHECKBOX -->
+        <div class="checkbox">
+        <div>
+        <label>
+            <input type="checkbox" name="checkbox">
+            <span></span> 
+        </label>
+    </div>
+    <!-- CHECKBOXTEXT -->
+        <div>
+            <p>I agree to the</p> 
+            <a href="#">Terms & Conditions</a> 
+            and 
+            <a href="#">Privacy</a>
+            <a href="#">Policy</a>
+        </div>
+    </div>
+    <!-- BUTTON SIGN UP -->
+        <div class="signup-btn">
+            <button type="submit" form="form" value="send" class="sign">Sign up</button>
+        </div>
+        <p class="join">Already have an account?
+        <a href="#">Join now!</a></p>
+        <p class="join _-margin" href="#">Or sign up with</p>
+
+        <!-- LINK BUTTONS -->
+        <div class="links-block">
+                <button  href="https://www.google.com"><img src="./assets/images/google.png" alt="googlelogo"></button>
+                <button href="https://www.apple.com"><img src="./assets/images/apple.png" alt="applelogo"></button>
+                <button href="https://www.facebook.com"><img src="./assets/images/facebook.png" alt="facebooklogo"></button>
+        </div>
+    </section>
+    
+</body>
+</html>

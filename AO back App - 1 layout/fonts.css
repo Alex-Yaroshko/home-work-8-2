@@ -1,0 +1,112 @@
+* {
+    font-family: 'Montagu Slab', serif;
+}
+h1 {
+    font-family: 'Montagu Slab';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 51px;
+    }
+.text_p1 {
+    font-family: 'Montagu Slab';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 51px;
+}
+.text_p2 {
+    font-family: 'Montagu Slab';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 22px;
+}
+
+/* sec1 */
+.sec1_h {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 44px;
+    color: #252525;
+}
+.sec1_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 29px;
+    color: #252525;
+}
+/* Section2 */
+
+.sec2_h {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 44px;
+    color: #252525;
+}
+.sec2_text {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+    color: #252525;
+}
+/* Forms */
+.form-inputs input {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 17px;
+}
+/* CHECKBOX */
+.checkbox p {
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 10px;
+    color:#252525;
+}
+.checkbox a {
+    color: #FFC33E;
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 9px;
+    line-height: 10px;
+    text-decoration: none;
+}
+
+
+.button_forget {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+}
+.login :nth-child(1) {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #252525;
+}
+.login :nth-child(2) {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+    color: #FFC33E;
+}

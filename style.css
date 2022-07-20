@@ -1,0 +1,18 @@
+.blocks {
+    display: flex;
+    justify-content: space-around;
+}
+.div_1 {
+    background-color: red;
+    padding: 40px;
+    border-radius: 10px;
+}
+.blocks :nth-child(2) {
+    background-color: limegreen;
+}
+.blocks :nth-child(3) {
+    background-color: purple;
+}
+.blocks :nth-child(4) {
+    background-color: blue;
+}
