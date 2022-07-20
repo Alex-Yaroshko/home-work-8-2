@@ -25,9 +25,13 @@
             <p>Sign up with your email to know when we will launch Oasis.</p>
             <label class="l1">
                 <input class="email-sec" 
-                type="email"
-                placeholder="E-mail address"
-                autocomplete="email">
+                type="email" 
+            autocomplete="email" 
+            autocomplete="on"
+            placeholder="E-mail adress" 
+            pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" 
+            title="E-mail should contain numbers only from 0 to 9 letters from a to f and contain @ character " 
+            minlength="8" maxlength="20">
                 <button class="submit-btn" type="submit"><img src="submmit.png" alt="стрелка"></button>
             </label>
         </div>
