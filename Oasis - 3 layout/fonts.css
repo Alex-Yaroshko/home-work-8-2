@@ -24,3 +24,33 @@ font-size: 22px;
 line-height: 27px;
 color: rgba(0, 0, 0, 0.35);
 }
+
+
+.logo-subtitle {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 27px;
+    color: #FFFFFF;
+}
+
+.container-2 :nth-child(2) {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 22px;
+line-height: 27px;
+color: #FFFFFF;
+opacity: 60%;
+}
+.logo-title-2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 31px;
+    text-align: center;
+    color: #FFFFFF;
+    opacity: 60%;
+}
